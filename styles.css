@@ -47,9 +47,6 @@ h1,h2,h3,h4,h5{
     
 }
 
-
-
-
 header {
     margin-bottom: 10px;
     height: 25px;
@@ -72,8 +69,6 @@ header {
     padding-bottom: 50px;
     
     }
-
-   
 
 P {
     color: black;
@@ -215,7 +210,7 @@ footer {
         font-size: 0.8em;
     }
      h1,h2,h3,h4,h5,h6{
-        padding: 5px;
+        padding: 3px;
         font-size: 3rem;
      }
     .logo {
@@ -231,6 +226,14 @@ footer {
     form {
         padding: 5px;
     }
+
+    footer h1{
+        text-align: center;
+      }
+     
+      footer p{
+         text-align: center;
+      }
 }
 
 /* Medium screens (tablets) */
@@ -244,7 +247,7 @@ footer {
     }
 
     p {
-        padding-left: 20px;
+        padding-left: 10px;
     }
 }
 
@@ -265,4 +268,12 @@ footer {
     .box {
         flex-basis: 300px;
     }
+
+    footer h1{
+        text-align: center;
+      }
+     
+      footer p{
+         text-align: center;
+      }
 }
