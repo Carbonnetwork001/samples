@@ -1,7 +1,3 @@
-header {
-    color: aliceblue;
-}
-
 body {
     background-color: white;
     padding: 20px;
@@ -208,34 +204,22 @@ footer {
         padding: 5px;
         font-size: 0.8em;
     }
-     h1{
-        padding: 3px;
-        font-size: 1rem bold;
-        text-align: center;
-     }
-    h2 {
-        padding: 3px;
-        font-size: 1rem bold;
-        text-align: center;
-    }
-
-  h3{  padding: 3px;
-        font-size: 1rem bold;
-        text-align: center;
-  }
-
-  h4 {
-    padding: 3px;
-        font-size: 1rem bold;
-        text-align: center;
-  }
-
-  h5 {
-    padding: 3px;
-        font-size: 1rem bold;
-        text-align: center;
-  }
     
+    
+h1,h2,h3,h4,h5{
+    text-align: center;
+    font-weight: bolder;
+    color: black;
+    padding: 3px;
+    padding-top: 50px;
+    padding-left: 35px;
+    
+}
+body {
+    background-color: white;
+    padding: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
     .logo {
         float: none;
         width: 50%;
@@ -258,4 +242,14 @@ footer {
       footer p{
          text-align: center;
       }
+
+      button  {
+        background-color: black;
+        border: 1px solid yellowgreen;
+        border-radius: 15%;
+        margin-left: 250px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
 }
