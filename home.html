@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME PAGE</title>
+    <style>
+        body {
+            display: block;
+            justify-content: center;
+            padding-top: 10px;
+            background-color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .container {
+            width: 100%;
+            position: relative;
+            height: 600px;
+            overflow-y: auto;
+        }
+         .card {
+            position: sticky;
+            top: 0;
+            max-width: 300px;
+            width: 100%;
+            margin: 0 auto;
+            border: 1px solid color-mix(in srgb, black white 20%);
+            border-radius: 3px;
+            background-color: black;
+            color: white;
+            padding: 30px;
+            margin-bottom: 20px;
+            box-shadow: 0 -5px 10px black,0 5px 10px black;
+         }
+
+         .card:nth-child(2){
+            top:20px;
+         }
+
+         .card:nth-child(3){
+            top:40px;
+         }
+
+         .card:nth-child(4){
+            top:60px;
+         }
+
+         .card:nth-child(5){
+            top:80px;
+         }
+
+
+         .founder {
+            color: darkgray;
+         }
+
+         .name {
+            margin: 0 0 5px;
+            color: goldenrod;
+            font-size: 20px;
+         }
+
+         h1,h2,span,p {
+            text-align: center;
+            padding-left: 10px;
+         }
+
+        .logo {
+    float: left;
+    height: 170px;
+    }
+
+    footer h1{
+   text-align: center;
+ }
+
+ footer p{
+    text-align: center;
+ }
+
+ .veat {
+    font-size: 50px;
+    padding-right: 50px;
+    padding-left: 10px;
+}
+
+ /* Hamburger icon styles (previously defined) */
+
+ .menu {
+    display: none;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu ul li {
+    margin-bottom: 10px;
+}
+
+/* Styles for the visible menu when the hamburger is active */
+.hamburger.active + .menu {
+    display: block;
+}
+.hamburger {
+    width: 30px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.bar {
+    width: 100%;
+    height: 4px;
+    background-color: goldenrod;
+    transition: 0.4s;
+}
+
+.hamburger.active .bar:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 5px);
+}
+
+.hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -5px);
+}
+
+    </style>
+    
+</head>
+<body>
+    <div class="hamburger" id="hamburger">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+
+    <nav class="menu" id="menu">
+        <ul>
+            <li><a href="./catalogue.html">Register</a></li>
+            <li><a href="./index.html">About</a></li>
+        </ul>
+    </nav>
+    <h1>WHO ARE WE AT THE CREATIVE PORTUM?</h1>
+    <span>WELCOME TO THE CREATIVE PORTUM,
+        This is a platform designed by our convener Kiblat who is presently
+        a 3rd year medical student at the university of ilorin,Kwara State,
+        Nigeria. She is passionate about making creative thrive in their confort
+        skill. <br>
+
+        Our mission is to provide a space where talented individuals can share 
+        their artistic vision  and connect with global audience.<br>
+
+        At creative portum,we believe every individual has their own skill and passion
+        and hence we make people know creativity has no boundary. Whether you a photographer,
+        designer,writer,or any other creativity you have,we have come to guide and unleash your 
+        imagination to inspire others.<br>
+
+        The Creative Portum isnt just a platform but a community of individuals with like minds
+        who share passion for creativity.<br>
+
+        Start your creative journey at The Creative Portum and let soar higher together.
+
+        <p>JOIN US TODAY AND CONNECT WITH INDIVIDUALS OF LIKE MINDS AS YOU ARE.</p>
+    </span>
+
+    <h2>TESTIMONIALS</h2>
+
+    <div class="container">
+        <div class="card">
+            <h2 class="name">KIBLAT</h2>
+                <span class="founder">FOUNDER,CREATIVE PORTUM</span>
+                <p class="testimonial">The creative portum is a very effective platform for creative,
+                    you will love it here.
+                </p>
+        </div>
+
+        <div class="card">
+            <h2 class="name">KIBLAT</h2>
+                <span class="founder">FOUNDER,CREATIVE PORTUM</span>
+                <p class="testimonial">The creative portum is a very effective platform for creative,
+                    you will love it here.
+                </p>
+        </div>
+
+        <div class="card">
+            <h2 class="name">KIBLAT</h2>
+                <span class="founder">FOUNDER,CREATIVE PORTUM</span>
+                <p class="testimonial">The creative portum is a very effective platform for creative,
+                    you will love it here.
+                </p>
+        </div>
+
+        <div class="card">
+            <h2 class="name">KIBLAT</h2>
+                <span class="founder">FOUNDER,CREATIVE PORTUM</span>
+                <p class="testimonial">The creative portum is a very effective platform for creative,
+                    you will love it here.
+                </p>
+        </div>
+
+        <div class="card">
+            <h2 class="name">KIBLAT</h2>
+                <span class="founder">FOUNDER,CREATIVE PORTUM</span>
+                <p class="testimonial">The creative portum is a very effective platform for creative,
+                    you will love it here.
+                </p>
+        </div>
+    </div><hr>
+
+    <footer>
+        <div>
+            <img src="./images/IMG-20231031-WA0078-removebg-preview.png" class="logo"><br>
+        <p class="veat">THE CREATIVE PORTUM UNIVERSITY OF ILORIN</p>
+    </div><br>
+        <h1>FOR FURTHER ENQUIRIES;CONTACT US VIA:</h1>
+        <p>WHATSAPP</p>
+        <p>INSTAGRAM</p>
+        <p>TWITTER</p>
+        <p>YOU CAN ALSO EMAIL US via thecreativeportum@gmail.com</p>
+        <p>A.RAHMAN GLOBAL CONCEPT &copy;2023 ALL RIGHT RESERVED</p>
+        <hr>
+    </footer>
+        <script>document.querySelector("#hamburger").addEventListener("click", function () {
+    this.classList.toggle("active");
+    document.querySelector("#menu").classList.toggle("active");
+});</script>  
+</body>
+</html>
