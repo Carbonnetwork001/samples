@@ -204,22 +204,39 @@ footer {
 /* Media queries */
 
 /* Small screens (mobile phones) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 750px) {
     header {
         padding: 5px;
         font-size: 0.8em;
     }
-     h1,h2,h3,h4,h5,h6{
+     h1{
         padding: 3px;
-        font-size: 0.5rem;
+        font-size: 1rem bold;
         text-align: center;
      }
+    h2 {
+        padding: 3px;
+        font-size: 1rem bold;
+        text-align: center;
+    }
 
-     footer h1 {
-        padding: 3px;
-        font-size: 0.5rem;
+  h3{  padding: 3px;
+        font-size: 1rem bold;
         text-align: center;
-     }
+  }
+
+  h4 {
+    padding: 3px;
+        font-size: 1rem bold;
+        text-align: center;
+  }
+
+  h5 {
+    padding: 3px;
+        font-size: 1rem bold;
+        text-align: center;
+  }
+    
     .logo {
         float: none;
         width: 50%;
@@ -227,7 +244,7 @@ footer {
     }
 
     button {
-        margin-left: 0;
+        margin-left: 3px;
     }
 
     form {
@@ -236,58 +253,10 @@ footer {
 
     footer h1{
         text-align: center;
-        font-size: small;
+        font-size: bold;
       }
      
       footer p{
          text-align: center;
       }
-}
-
-/* Medium screens (tablets) */
-@media only screen and (min-width: 601px) and (max-width: 1024px) {
-    header {
-        font-size: 1.2em;
-    }
-
-    .veat {
-        font-size: 40px;
-    }
-
-    p {
-        padding-left: 10px;
-    }
-}
-
-/* Large screens (desktops) */
-@media only screen and (min-width: 1025px) {
-    header {
-        font-size: 1.5em;
-    }
-
-    .veat {
-        font-size: 50px;
-    }
-
-    p {
-        padding-left: 50px;
-    }
-
-    .box {
-        flex-basis: 300px;
-    }
-
-    footer h1{
-        text-align: center;
-      }
-     
-      footer p{
-         text-align: center;
-      }
-
-      h1,h2,h3,h4,h5,h6{
-        padding: 3px;
-        font-size: 0.5rem;
-        text-align: center;
-     }
 }
