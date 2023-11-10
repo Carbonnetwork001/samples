@@ -1,2 +1,2 @@
 # samples
-A website that will enhance reading online
+A website that describe a creative portum and their activities
