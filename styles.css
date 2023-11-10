@@ -36,16 +36,15 @@ body {
 
 
 h1,h2,h3,h4,h5{
-    text-align: left;
+    text-align: center;
     font-weight: bolder;
     color: black;
     padding: 10px;
     padding-top: 100px;
     padding-left: 70px;
-    max-width: fit-content;
-    max-height: fit-content;
     
 }
+
 
 header {
     margin-bottom: 10px;
