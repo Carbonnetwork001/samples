@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: gray;
     padding: 20px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -7,7 +7,7 @@ body {
    text-align: center;
  }
 
- footer p{
+ footer span{
     text-align: center;
  }
 /* Hamburger icon styles (previously defined) */
@@ -44,8 +44,10 @@ h1,h2,h3,h4,h5{
 
 header {
     margin-bottom: 10px;
-    height: 25px;
-    width: fit-content;
+    margin-top: 25px;
+    text-align: center;
+   font-size: 50px;
+    height: 100%;
 }
 .logo {
     float: left;
@@ -53,7 +55,11 @@ header {
 }
 
 .veat {
-    font-size: 50px;
+    margin-bottom: 10px;
+    margin-top: 25px;
+    text-align: center;
+   
+    height: 100%;
 }
 .intro {
     color: black;
@@ -114,7 +120,7 @@ P {
 }
 
 .about {
-    background-color:white;
+   
     
 }
 
@@ -127,8 +133,8 @@ P {
    }
 
 .mail {
+    
     background-color: black;
-   
   
 }
 
@@ -157,6 +163,14 @@ button a{
     color: black;
     text-transform: uppercase;
     text-align:center ;
+}
+
+.welcome{
+    padding-top: 70px;
+}
+
+.welcome h1{
+    font-size: 50px;
 }
 .profile {
     height: 40px;
@@ -197,7 +211,11 @@ button a{
 
 
 footer {
-    background-color: white;
+    margin-bottom: 10px;
+    margin-top: 25px;
+    text-align: center;
+   font-size: 50px;
+    height: 100%;
 }
 
 .socials{
@@ -225,21 +243,22 @@ footer {
     header {
         padding: 5px;
         font-size: 0.8em;
+        font-size: 50px;
     }
     
-    
-h1,h2,h3,h4,h5{
-    text-align: center;
-    font-weight: bold;
-    font-size: 20px;
-    color: black;
-    padding: 3px;
-    padding-top: 50px;
-    padding-left: 35px;
-    
-}
+    h2,h3,h4,h5{
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+        color: black;
+        padding: 3px;
+        padding-top: 50px;
+        padding-left: 35px;
+        
+    }
+
 body {
-    background-color: white;
+    background-color: gray;
     padding: 10px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 } 
@@ -259,13 +278,13 @@ body {
 
     footer h1{
         text-align: center;
-        font-size: bold;
-      }
-     
-      footer p{
-         text-align: center;
+        font-size: 10px;
       }
 
+      footer p{
+        text-align: center;
+        font-size: small;
+      }
       
    button  {
     background-color: goldenrod;
@@ -281,5 +300,13 @@ button a{
     text-transform: uppercase;
     text-align:center ;
 }
-    
+footer{
+margin-bottom: 10px;
+margin-top: 25px;
+text-align: center;
+font-size: 50px;
+padding: 5px;
+font-size: 0.8em;
+font-size: 50px;
+}
 }
